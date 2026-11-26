@@ -1,5 +1,9 @@
 # Changelog
 
+## [Add Copy Last Used OTP] - {PR_MERGE_DATE}
+
+- Add a no-view command that copies a fresh code for the most recently used service. Assign a hotkey in Raycast to run it without opening a window.
+
 ## [Fix Malformed Import Entries] - 2026-10-26
 
 - A service entry missing its whole `otp` object is now skipped instead of aborting the entire import.
